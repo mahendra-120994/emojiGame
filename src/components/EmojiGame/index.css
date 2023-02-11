@@ -1,0 +1,45 @@
+* {
+  font-family: 'Roboto';
+}
+.bg_container {
+  background-image: linear-gradient(#9796f0, #fbc7d4);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.game_container {
+  width: 50%;
+  padding: 5px;
+}
+.emoji_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  list-style: none;
+}
+
+@media screen and (max-width: 767px) {
+  .game_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

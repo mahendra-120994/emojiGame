@@ -1,0 +1,30 @@
+.emoji_list_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: auto;
+  margin: 5px;
+}
+.emoji_btn {
+  background-color: #ffffff33;
+  padding: 10px;
+  border: solid 1px #ffffff30;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.emoji_img {
+  width: 80px;
+}
+@media screen and (max-width: 767px) {
+  .emoji_list_item {
+    width: 20%;
+    margin: 10px;
+  }
+  .emoji_img {
+    width: 60px;
+  }
+  .emoji_btn {
+    padding: 10px;
+  }
+}
