@@ -7,7 +7,6 @@ const WinOrLoseCard = props => {
   const {isWon, onClickPlayAgain, score, maxScore} = props
 
   const imgUrl = isWon ? wonImg : loseImg
-  const altValue = isWon ? 'win' : 'lose'
   const status = isWon ? 'You Won' : 'You Lose'
   const scoreLabel = isWon ? 'Best Score' : 'Score'
 
@@ -24,7 +23,7 @@ const WinOrLoseCard = props => {
         </button>
       </div>
 
-      <img src={imgUrl} alt={altValue} className="result_img" />
+      <img src={imgUrl} alt="win or lose" className="result_img" />
     </div>
   )
 }
